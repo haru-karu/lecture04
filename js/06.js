@@ -3,12 +3,17 @@ function zero(){
 }
 
 function succ(a){
-   a.push(true,true,true,true,true,true,true,true,true,true);
+   a.push(true);
    return a;
  }
 
 function ten(){
-var a = zero();
-a = succ (a);
-return a;
+  var a = zero();
+  var i = 0;
+
+  while(i < 10){
+  a = succ (a);
+  i = i + 1;
+  }
+  return a;
 }
