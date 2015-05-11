@@ -1,4 +1,4 @@
-function succ(a){
-   a.push(1);
-   return a;
+function succ(n){
+   n.push(1);
+   return n;
  }

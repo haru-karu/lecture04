@@ -3,12 +3,12 @@ function zero(){
 }
 
 function succ(a){
-   a.push(1);
+   a.push(true);
    return a;
  }
 
-function one(){
-var a = zero();
-a = succ (a);
-return a;
-}
+ function one(){
+ var a = zero();
+ a = succ (a);
+ return a;
+ }
